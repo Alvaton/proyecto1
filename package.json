@@ -1,0 +1,35 @@
+{
+  "name": "supervisortecnico",
+  "version": "1.0.0",
+  "description": "Servidor para administracion de asignacion de recursos a tecnicos.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Alvan06/SupervisorTecnico.git"
+  },
+  "keywords": [
+    "Node",
+    "js",
+    "Mysql"
+  ],
+  "author": "Alvaro Del Cid",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Alvan06/SupervisorTecnico/issues"
+  },
+  "homepage": "https://github.com/Alvan06/SupervisorTecnico#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "moment": "^2.29.1",
+    "mysql": "^2.18.1",
+    "mysql2": "^2.3.0",
+    "rootpath": "^0.1.2",
+    "sequelize": "^6.6.5"
+  }
+}
